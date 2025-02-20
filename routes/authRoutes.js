@@ -22,3 +22,4 @@ router.get('/profile', authMiddleware, getProfile);
 router.put('/updateProfile', authMiddleware, updateProfile);
 
 module.exports = router;
+
